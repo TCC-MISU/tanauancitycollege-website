@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tanauan City College</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f7f8;
+      color: #333;
+    }
+    header {
+      background-color: #00539C;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+    }
+    nav {
+      background-color: #013a63;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    section {
+      margin-bottom: 50px;
+    }
+    h2 {
+      color: #00539C;
+      margin-bottom: 15px;
+      border-bottom: 3px solid #00539C;
+      padding-bottom: 5px;
+      width: fit-content;
+    }
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+    footer {
+      background-color: #013a63;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+      }
+      footer {
+        position: static;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tanauan City College</h1>
+  </header>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#courses">Courses</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <main>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>Tanauan City College is a premier educational institution dedicated to providing quality higher education to students of Tanauan City and nearby communities. We aim to develop competent and ethical professionals for the future.</p>
+    </section>
+
+    <section id="courses">
+      <h2>Courses Offered</h2>
+      <ul>
+        <li>Bachelor of Science in Computer Science</li>
+        <li>Bachelor of Science in Business Administration</li>
+        <li>Bachelor of Elementary Education</li>
+        <li>Bachelor of Secondary Education</li>
+        <li>Information Technology</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Email: info@tanauancitycollege.edu.ph</p>
+      <p>Phone: +63 912 345 6789</p>
+      <p>Address: Rizal St., Tanauan City, Batangas, Philippines</p>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 Tanauan City College. All rights reserved.
+  </footer>
+</body>
+</html>
